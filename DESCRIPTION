@@ -1,12 +1,17 @@
 Package: PMDS
-Title: What the Package Does (One Line, Title Case)
+Title: Multi Dimensional Scaling for Personal Computer
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Koji", "Kosugi", , "kosugitti@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5816-0099"))
+Description: This is a port of the MDS program from Akinori Okada and Tadashi 
+Imaizumi (1994) PC Multidimensional Scaling Methods, Kyoritsu Shuppan, to the R 
+package. This is a very good book, but it is already out of print and 
+unavailable. The MDS program that accompanies this book is for the NEC PC9800 
+series, which is currently unavailable, and even if it were available, it would 
+not be executable. So I thought of porting it to R. Of course, R has excellent 
+MDS packages such as `smacof`, so it is generally better to use those.
+License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3.9000
